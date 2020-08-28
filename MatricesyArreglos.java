@@ -29,7 +29,7 @@ public class MatricesyArreglos {
         System.out.println("La matriz inicial es: ");
         
         for(int i = 3; i >=0 ;i--){
-            diagonal2[j] = matriz2[j][i];
+            diagonal2[i] = matriz2[j][i];
             System.out.println("["+matriz2[j][0]+","+matriz2[j][1]+","+matriz2[j][2]+","+matriz2[j][3]+"]");
             j++;
         }
