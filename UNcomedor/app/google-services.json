@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "386615689504",
+    "firebase_url": "https://uncomedor-65dcd-default-rtdb.firebaseio.com",
+    "project_id": "uncomedor-65dcd",
+    "storage_bucket": "uncomedor-65dcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386615689504:android:829d6ad7d6c6c26d131745",
+        "android_client_info": {
+          "package_name": "com.example.uncomedor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386615689504-h4ksirk5d3hplsq2jtf3onm0eo4njuuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcSo0lo4ZUfXjPhdKmrTrAlkeb4NqftgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386615689504-h4ksirk5d3hplsq2jtf3onm0eo4njuuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
