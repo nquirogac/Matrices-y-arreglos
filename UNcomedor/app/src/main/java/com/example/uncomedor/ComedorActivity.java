@@ -8,17 +8,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ComedoresActivity extends AppCompatActivity {
+public class ComedorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_comedores);
+        setContentView(R.layout.activity_comedor);
     }
 
-    public void iraComedor(View view) {
-        pila.push(ComedorActivity.class);
-        Intent siguiente = new Intent(this, ComedorActivity.class);
+    public void iraTurno(View view) {
+        pila.push(TurnoActivity.class);
+        Intent siguiente = new Intent(this, TurnoActivity.class);
         this.startActivity(siguiente);
     }
 }
