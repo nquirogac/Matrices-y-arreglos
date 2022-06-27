@@ -72,12 +72,18 @@ public class LoginActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
                                     Toast.makeText(LoginActivity.this,"Bienvenido: "+email2, Toast.LENGTH_SHORT).show();
+                                    if(email2.equals("comedor1@gmail.com")||email2.equals("comedor2@gmail.com")||email2.equals("comedor3@gmail.com")){
+                                        Toast.makeText(LoginActivity.this,"111", Toast.LENGTH_SHORT).show();
+                                        irAdmi();
+                                        Toast.makeText(LoginActivity.this,"2222", Toast.LENGTH_SHORT).show();
+                                    }else{
+                                        irHomeDatos();
+                                    }
 
-                                    irHomeDatos();
 
                                 }else{
                                     if(task.getException() instanceof FirebaseAuthUserCollisionException){
-                                        Toast.makeText(LoginActivity.this,"El usuario ya existe", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(LoginActivity.this,"El usuario no existe", Toast.LENGTH_SHORT).show();
                                     }else {
                                         Toast.makeText(LoginActivity.this, "Error en el registro", Toast.LENGTH_SHORT).show();
                                     }
@@ -126,7 +132,10 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
-
+    public void irAdmi(){
+        Intent siguiente = new Intent(LoginActivity.this, ColaActivity.class);
+        startActivity(siguiente);
+    }
     public void iraAuth(View view) {
         pila.pop();
         pila.push(AuthActivity.class);

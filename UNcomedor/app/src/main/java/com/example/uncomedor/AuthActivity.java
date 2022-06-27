@@ -110,7 +110,6 @@ public class AuthActivity extends AppCompatActivity {
 
                 //crear usuario
                 String finalApoyo = apoyo;
-                Toast.makeText(AuthActivity.this, "11111", Toast.LENGTH_SHORT).show();
 
                 fAuth.createUserWithEmailAndPassword(email,password)
                         .addOnCompleteListener(AuthActivity.this, new OnCompleteListener<AuthResult>() {
@@ -135,9 +134,9 @@ public class AuthActivity extends AppCompatActivity {
                                     if(email.equals("comedor1@gmail.com")||email.equals("comedor2@gmail.com")||email.equals("comedor3@gmail.com")){
                                         mDatabase.child("Users").child("Comedores").child(id).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
                                             @Override
-                                            public void onComplete(@NonNull Task<Void> task2) {
-                                                if (task2.isSuccessful()) {
-                                                    irHomeDatos();
+                                            public void onComplete(@NonNull Task<Void> task3) {
+                                                if (task3.isSuccessful()) {
+                                                    irAdmi();
                                                 } else {
                                                     Toast.makeText(AuthActivity.this, "No se pudieron crear los datos correctamente", Toast.LENGTH_SHORT).show();
                                                 }
@@ -210,6 +209,10 @@ public class AuthActivity extends AppCompatActivity {
 
     }
 
+    public void irAdmi(){
+        Intent siguiente = new Intent(this, AdmiActivity.class);
+        this.startActivity(siguiente);
+    }
 
 
     public void iraLogin(View view) {
@@ -219,4 +222,5 @@ public class AuthActivity extends AppCompatActivity {
         this.startActivity(siguiente);
     }
 
-    }
+
+}
