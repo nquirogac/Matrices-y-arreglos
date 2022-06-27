@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/comedor"
+
+    tools:context=".AdmiActivity">
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="640dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ly"
+            android:layout_width="411dp"
+            android:layout_height="78dp"
+            android:background="#CEDDD3D3"
+            android:orientation="horizontal"
+            tools:ignore="UnknownIdInLayout">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:backgroundTint="#C61313"
+                android:fontFamily="serif"
+                android:shadowColor="#070707"
+                android:text=" Cola"
+                android:textColor="#4B1D97"
+                android:textSize="55sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:backgroundTint="#C61313"
+                android:fontFamily="serif"
+                android:shadowColor="#050505"
+                android:text="comedor"
+                android:textColor="#119A3F"
+                android:textSize="55sp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn1"
+                        android:layout_width="51dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="aaa" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewA"
+                        android:layout_width="19dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewC"
+                        android:layout_width="21dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp"
+                tools:visibility="visible">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn2"
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="bbb" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAaa"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm2"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCaa"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf2"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn3"
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="cccc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAaaz"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/textViewAHaaz"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCaaz"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/textViewDdz"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn4"
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="dddd" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAaax"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/textViewAHaax"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCaax"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/textViewDdax"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn5"
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="eee" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAaas"
+                        android:layout_width="54dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/textViewAHaas"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCaas"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/textViewDdas"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

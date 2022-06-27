@@ -8,7 +8,7 @@
     tools:context=".HomeActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/ly"
         android:layout_width="413dp"
         android:layout_height="90dp"
         android:background="#CEDDD3D3"
@@ -47,7 +47,7 @@
         android:id="@+id/textView4"
         android:layout_width="410dp"
         android:layout_height="92dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:layout_weight="1"
         android:background="#CEDDD3D3"
         android:fontFamily="sans-serif-black"
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/ly"
         app:srcCompat="@drawable/user"
         app:tint="#1F2A61" />
 

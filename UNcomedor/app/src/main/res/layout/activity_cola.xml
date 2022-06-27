@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvn3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/comedor"
+    tools:context=".ColaActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="726dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ly"
+            android:layout_width="411dp"
+            android:layout_height="78dp"
+            android:background="#CEDDD3D3"
+            android:orientation="horizontal"
+            tools:ignore="UnknownIdInLayout">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:backgroundTint="#C61313"
+                android:fontFamily="serif"
+                android:shadowColor="#070707"
+                android:text=" Cola"
+                android:textColor="#4B1D97"
+                android:textSize="55sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:backgroundTint="#C61313"
+                android:fontFamily="serif"
+                android:shadowColor="#050505"
+                android:text="comedor"
+                android:textColor="#119A3F"
+                android:textSize="55sp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="401dp"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="79dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn1"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Laura Castillo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewA"
+                        android:layout_width="88dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm1"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menú 1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewC"
+                        android:layout_width="77dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf1"
+                        android:layout_width="108dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Efectivo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:onClick="actualizar"
+                android:text="Entregado"
+                android:textSize="12sp"
+                tools:visibility="visible">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly2"
+            android:layout_width="401dp"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="84dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn2"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Santiago Rivera" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAaa"
+                        android:layout_width="93dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm2"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menú 1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCaa"
+                        android:layout_width="84dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf2"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nequi" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:onClick="iraComedores"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly3"
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/oli"
+                        android:layout_width="96dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn33"
+                        android:layout_width="116dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="David Toledo" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAee"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm3"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menú 2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf3"
+                        android:layout_width="119dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nequi" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly4"
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="101dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn4"
+                        android:layout_width="121dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Juliana Parra" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewAe"
+                        android:layout_width="103dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm4"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menú 1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewCe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf4"
+                        android:layout_width="119dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Efectivo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/ly5"
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+            android:background="#BCC1BC"
+            android:orientation="horizontal"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/tvn5"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Camilo Torres" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewddd"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Menú:" />
+
+                    <TextView
+                        android:id="@+id/tvm5"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menú 2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Forma de pago:" />
+
+                    <TextView
+                        android:id="@+id/tvf5"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nequi" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:text="Entregado"
+                android:textSize="12sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="79dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="refresh"
+            android:text="Actualizar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

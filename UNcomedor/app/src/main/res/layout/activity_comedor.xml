@@ -132,8 +132,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/radio_button_background"
-            android:text="\n Menu 1 \n\n -Arroz \n -Yuca \n -Carne en bistec \n -Ensalada tropical
-            \n -Ajiaco \n -Jugo de mora \n -Chocolatina \n "
+            android:text="\n Menu 2 \n\n -Arroz \n -Yuca \n -Pollo asado \n -Ensalada tropical             \n -Ajiaco \n -Jugo de mora \n -Chocolatina \n "
             android:textSize="14dp"
             tools:layout_editor_absoluteX="89dp"
             tools:layout_editor_absoluteY="262dp" />

@@ -4,10 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/circle.xml" value="0.183" />
-        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admi.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.337469482421875" />
+        <entry key="app/src/main/res/layout/activity_cola.xml" value="0.2852664576802508" />
+        <entry key="app/src/main/res/layout/activity_comedor.xml" value="0.2593444160793139" />
         <entry key="app/src/main/res/layout/activity_comedores.xml" value="0.2742980957031249" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.2646197553993999" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15172101449275363" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.30123883675837865" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31290382716966714" />
+        <entry key="app/src/main/res/layout/activity_opciones.xml" value="0.20516304347826086" />
+        <entry key="app/src/main/res/layout/activity_turno.xml" value="0.24592391304347827" />
       </map>
     </option>
   </component>
